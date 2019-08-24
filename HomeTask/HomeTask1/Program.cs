@@ -17,7 +17,11 @@ namespace HomeTask1
                 int intChange = int.Parse(change);
                 listChange.Add(intChange);
             }
+            Console.WriteLine("Boyuk reqem:");
             Console.WriteLine(listChange.Max());
+            Console.WriteLine("Kicik reqem:");
+            Console.WriteLine(listChange.Min());
+            Console.WriteLine("Reqemlerin cemi:");
             Console.WriteLine(listChange.Sum());
         }  
     }
